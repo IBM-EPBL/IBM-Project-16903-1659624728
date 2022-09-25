@@ -18,7 +18,6 @@ Technical Architecture:
 
 ![architecture - blueprint](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/architecture.png)
 
-
 ## Links 
 
 *  [Empathy map](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Empathy%20map.pdf)

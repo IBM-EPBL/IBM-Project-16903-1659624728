@@ -1,9 +1,9 @@
 # IBM-Project-16903-1659624728
-# A Novel Method for Handwritten Digit Recognition System
+# ✍️A Novel Method for Handwritten Digit Recognition System
 
 ## Category: 
 
-Artificial Intelligence
+🧠Artificial Intelligence
 
 ## 👨‍🎓Skills Required: 
 
@@ -27,7 +27,22 @@ Technical Architecture:
 - VIGNESHWARAN M
 
 ## 🔗Links 
+* ARVIND J [Assignments](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/tree/main/Assignments/Team%20lead%20Arvind%20J)
+* MAHESWARAN G [Assignments](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/tree/main/Assignments/Team%20member%201%20Maheswaran%20G)
+* MOHANKUMAR V S [Assignments](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/tree/main/Assignments/Team%20member%202%20Mohan%20kumar%20V%20S)
+* VIGNESHWARAN M [Assignments](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/tree/main/Assignments/Team%20member%203%20Vigneshwaran%20M)
 
-*  [Empathy map](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Empathy%20map.pdf)
-*  [Problem statements](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Problem%20statements.pdf)
-*  [Assignments](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/tree/main/Assignments)
+## EMPATHY MAP
+*  [Empathy map](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Empathy%20map1.pdf)
+
+## BRAINSTORMING - IDEA GENERATION
+* [BRAINSTORMING](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Brainstorming-%20Idea%20Generation-%20Prioritizaation%20Template.pdf%20(1).pdf)
+
+## LITERATURE SURVEY
+* [LITERATURE SURVEY](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Literature%20survey1.pdf)
+
+## PROBLEM STATEMENTS
+*  [PROBLEM STATEMENTS](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Ideation%20phase/Problem%20statements1.pdf)
+
+## PROPOSED SOLUTION
+*  [PROPOSED SOLUTION](https://github.com/IBM-EPBL/IBM-Project-16903-1659624728/blob/main/Project%20design%20and%20planning/Project%20design%20phase%20I/Proposed%20solution1.pdf)

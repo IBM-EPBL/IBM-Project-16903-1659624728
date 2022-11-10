@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <title>HandWritten Digit Recognition</title>
+
+  <meta name="viewport" content="width=device-width">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+
+</head>
+<style>
+    body{
+     background-image: url('static/images/imk.gif');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    #frame{
+     width:100px;
+     height:100px;
+     background-color: #000000;
+     border-radius: 7px;
+    margin: 0 0 10px 10px;
+     /* box-shadow: 0px 0px 10px 5px white; */
+     
+     
+    }
+</style>
+
+<script>
+  function preview() {
+    frame.src=URL.createObjectURL(event.target.files[0]);
+}
+
+    $(document).ready(function() {
+          $('#clear_button').on('click', function() {
+              $('#image').val('');
+              $('#frame').attr('src',"");
+            });
+        });
+
+</script>
+
+<body>
+  <nav>
+    <p class="main_text">HandWritten Digit Recognition System</p>
+</nav>
+    <div class="caption_box">
+        <h4>Handwritten Digit Recognition is a technology that is much needed in this world as of Today.This Digit Recognition System is used to recognize the digits from different sources like email, posts, cheque etc. Before proper implementation of this technology we have relied on writing text with our own hands which can result in error.It's difficult to store and access physical data with efficiency.The project presents in representing the recognization of handwritten digits (0 - 9) from the famous MNIST dataset. Here we will be using AlexNet which is an architecture of Convolutional Neural Network.</h4>
+    </div>
+        <section id="content">
+
+            <div class="leftside">
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+            <label>Select a image:</label>
+            <input id="image" type="file" name="image" accept="image/png, image/jpeg" onchange="preview()"><br><br>
+              <img id="frame" width="100px" height="100px"/>
+              <div class="buttons_div">
+                <button type="submit" class="btn btn-light">Predict</button>
+                <button type="button" class="btn btn-light">&nbsp Clear &nbsp</button>
+              </div>
+            </form>
+            </div>
+      </section>  
+</body>
+
+</html>
